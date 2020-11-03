@@ -7,7 +7,7 @@ Make sure that your code is exactly the same as the one shown above. If it isn't
 
 `Hello, world!`
 
-This happens because the `print()` function outputs the string `'Hello, world!'` onto the console. We will learn about basic datatypes, operations, control stuctures, and functions in this lesson.
+This happens because the `print()` function outputs the string `'Hello, world!'` onto the console. We will learn about basic datatypes and operations in this lesson. In the next lesson, we will learn about basic control structures and functions.
 
 # Basic Datatypes
 There are different types of data that can be stored in variables. The basic ones are:
@@ -32,18 +32,42 @@ float_8 = float(string_8)
 ```
 
 # Basic Operations
-To use and manipulate variables and data, you need to use operations. Operations allow you to change data so that it becomes more useful or to complete a task. 
+To use and manipulate variables and data, you need to use operations. Operations allow you to change data so that it becomes more useful or to complete a task. Most basic operations involve two pieces of data with an operator in between. With all of these operations, you can use parentheses to specify the order in which the operations should be executed. 
 
 ## Int and Float Operations
 The following operations are ranked in order of importance:
 - Exponent: `**`
 - Multiplication, Division, Floor Division, Modulo: `*, /, //, %`
 - Addition, Subtraction: `+, -`
+
 Floor Division gives the greatest integer that is less than the quotient of two numbers. Modulo gives the remainder of the division of two numbers if the quotient is an integer.
+
 There is another form that can also be used with these operations. `x += 3` can be used instead of `x = x + 3` and also assigns the value of `x + 3` to `x`.
 
 ## String Operations
 There aren't many operations with strings, because strings are immutable, or cannot be changed. They can only be added or used to create other variables. Here are some of the operations:
 - Concatenate: `+`
 - Multiplication: `*`
+
 Concatenate adds two strings into one large string. Multiplication adds the same string a given amount of times. For example, `'race'+'car' = 'racecar'` and `'abcd'*3 = 'abcdabcdabcd'`. Like int and float operations, the form `x += y` can be used instead of `x = x + y`.
+
+## Boolean Operations
+There are again not many operations with booleans. The following operations are ranked in order of importance:
+- Not: `not`
+- And: `and`
+- Or: `or`
+
+The Not operator changes `True` into `False` and vice versa. The And operator gives `True` if both booleans are `True` and `False` otherwise. The Or operator gives `True` if at least one of the booleans is `True` and `False` otherwise.
+
+## Comparison Operations
+Sometimes, you need to compare two pieces of data to find their relationship. Comparison operators return a boolean variable that indicates if two pieces of data are related in a certian way. The basic ones are listed below:
+- Equal to: `==`
+- Not equal to: `!=`
+- Greater than: `>`
+- Less than: `<`
+- Greater than or equal to: `>=`
+- Less than or equal to: `<=`
+
+All of these operators return a boolean value, either `True` or `False`. However, ints and floats are the only datatype that works with all of these operators. Strings and booleans can only be used with the first two operators.
+
+### [Back to Homepage](README.md)
