@@ -35,4 +35,5 @@ run = 'python3 main.py'
 * To run a program, go to the .replit file and add the program name instead of main.py
 * Then, click on the program in the list on the top left and click run at the top of the screen
 
+### [Next Lesson](lesson1.md)
 ### [Back to Homepage](README.md)
