@@ -28,7 +28,6 @@ You can use an IDE such as Repl to write and store code. To use Repl, you first 
 * In the top left, click the add file button and name the file .replit
 * In the file copy this code:
 ```
-language = 'bash'
 run = 'python3 main.py'
 ```
 * To add more programs, click the add file button and name the program, making sure that it ends with a .py
