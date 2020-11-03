@@ -30,3 +30,20 @@ number_8 = 8
 string_8 = str(number_8)
 float_8 = float(string_8)
 ```
+
+# Basic Operations
+To use and manipulate variables and data, you need to use operations. Operations allow you to change data so that it becomes more useful or to complete a task. 
+
+## Int and Float Operations
+The following operations are ranked in order of importance:
+- Exponent: `**`
+- Multiplication, Division, Floor Division, Modulo: `*, /, //, %`
+- Addition, Subtraction: `+, -`
+Floor Division gives the greatest integer that is less than the quotient of two numbers. Modulo gives the remainder of the division of two numbers if the quotient is an integer.
+There is another form that can also be used with these operations. `x += 3` can be used instead of `x = x + 3` and also assigns the value of `x + 3` to `x`.
+
+## String Operations
+There aren't many operations with strings, because strings are immutable, or cannot be changed. They can only be added or used to create other variables. Here are some of the operations:
+- Concatenate: `+`
+- Multiplication: `*`
+Concatenate adds two strings into one large string. Multiplication adds the same string a given amount of times. For example, `'race'+'car' = 'racecar'` and `'abcd'*3 = 'abcdabcdabcd'`. Like int and float operations, the form `x += y` can be used instead of `x = x + y`.
