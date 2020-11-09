@@ -70,4 +70,6 @@ Sometimes, you need to compare two pieces of data to find their relationship. Co
 
 All of these operators return a boolean value, either `True` or `False`. However, ints and floats are the only datatype that works with all of these operators. Strings and booleans can only be used with the first two operators.
 
+### [Next Lesson](lesson2.md)
+
 ### [Back to Homepage](README.md)
