@@ -13,7 +13,7 @@ This happens because the `print()` function outputs the string `'Hello, world!'`
 There are different types of data that can be stored in variables. The basic ones are:
 - String: Data which is a series of characters. It is defined using quotation marks such as `''` or `""`.
 - Int - Data which is an integer, and can be negative. It is automatically defined whenever you assign an integer to a variable.
-- Float - Data which is a number, and may or may not be an integer, but will alway have a decimal point. It is automatically defined whenever you assign a number with a decimal point to a variable.
+- Float - Data which is a number, and may or may not be an integer, but will always have a decimal point. It is automatically defined whenever you assign a number with a decimal point to a variable.
 - Boolean - Data which is either True or False. It is automatically defined whenever you assign a variable either `True` or `False`.
 
 To assign a datatype to a variable, you just use the equal sign and put the variable on the left side and the datatype on the right side. Variables must not have spaces or start with a number. Some examples of assigning data to variables:
@@ -60,7 +60,7 @@ There are again not many operations with booleans. The following operations are 
 The Not operator changes `True` into `False` and vice versa. The And operator gives `True` if both booleans are `True` and `False` otherwise. The Or operator gives `True` if at least one of the booleans is `True` and `False` otherwise.
 
 ## Comparison Operations
-Sometimes, you need to compare two pieces of data to find their relationship. Comparison operators return a boolean variable that indicates if two pieces of data are related in a certian way. The basic ones are listed below:
+Sometimes, you need to compare two pieces of data to find their relationship. Comparison operators return a boolean variable that indicates if two pieces of data are related in a certain way. The basic ones are listed below:
 - Equal to: `==`
 - Not equal to: `!=`
 - Greater than: `>`
