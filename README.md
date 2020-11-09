@@ -5,6 +5,7 @@ On this website, you can learn the basics of Python. I will be updating this web
 
 1. [Introduction To Programming](intro.md)
 2. [Basic Datatypes, Operations, Control Structures, and Functions](lesson1.md)
+3. [Control Structures and Common Functions](lesson2.md)
 
 ### Other Resources
 
