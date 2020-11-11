@@ -40,7 +40,6 @@ while count <= times:
 user_string = input('Please type any string: ')
 user_char = input('What character would you like to count? ')
 
-print(user_string[1:6:2])
 char_count = 0
 for char in user_string:
   if char == user_char:
