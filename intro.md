@@ -11,28 +11,8 @@ There are two types of programming languages: **compiled** and **interpreted**. 
 
 **C++** is one of the most used programming language. It is also one of the fastest because it is compiled. However, it can be complicated and difficult to learn. It also has a lot of features that give it a lot of applications.
 
-**Python** is another popular programming language. It is one of the easiest to learn, read, and use. It is an interpreted language, which makes it faster to change and check your program, but is not very fast. There are different versions of Python, but the current one used is Python3.
-
-# How to use IDE - Repl
-
-You can use an IDE such as Repl to write and store code. To use Repl, you first need a google account or a GitHub account. If you have a GitHub account, you can easily upload your code to GitHub and share it with others. Even if you don’t have a GitHub account, you can still write and test your code easily there with a google account. 
-
-## How to run a program in Repl
-
-* Login to Repl
-* Go to your homepage. 
-* Click new repl at the top left of your screen. 
-* Choose Python as your language. 
-* Write the name of the repl. 
-* Click create repl. 
-* In the top left, click the add file button and name the file .replit
-* In the file copy this code:
-```
-run = 'python3 main.py'
-```
-* To add more programs, click the add file button and name the program, making sure that it ends with a .py
-* To run a program, go to the .replit file and add the program name instead of main.py
-* Then, click on the program in the list on the top left and click run at the top of the screen
+**Python** is another popular programming language. It is one of the easiest to learn, read, and use. It is an interpreted language, which makes it faster to change and check your program, but is not very fast. There are different versions of Python, but the current one used is Python3. Below is the Python Logo.
+<img src="https://i.pinimg.com/originals/0f/60/19/0f6019e15f1d8ae07e7e8ea16d242676.png" alt="PYTHON FOR ABSOLUTE BEGINNERS - Python Lovers | Python programming,  Programming tutorial, Python logo"/>
 
 ### [Next Lesson](lesson1.md)
 ### [Back to Homepage](README.md)
