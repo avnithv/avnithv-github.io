@@ -61,8 +61,8 @@ The Not operator changes `True` into `False` and vice versa. The And operator gi
 
 ## Comparison Operations
 Sometimes, you need to compare two pieces of data to find their relationship. Comparison operators return a boolean variable that indicates if two pieces of data are related in a certain way. The basic ones are listed below:
-- Equal to: `==`
-- Not equal to: `!=`
+- Equal to (case sensitive): `==`
+- Not equal to (case sensitive): `!=`
 - Greater than: `>`
 - Less than: `<`
 - Greater than or equal to: `>=`
@@ -70,6 +70,15 @@ Sometimes, you need to compare two pieces of data to find their relationship. Co
 
 All of these operators return a boolean value, either `True` or `False`. However, ints and floats are the only datatype that works with all of these operators. Strings and booleans can only be used with the first two operators.
 
-### [Next Lesson](lesson2.md)
+# String Functions
+The following is a list of functions, methods, and other useful features that you can use with strings.
+- `len(string)` - Gives length of string
+- `string[index]` - Strings are stored as a sequence of characters, and each of these characters can be accessed using an index. Indices start from zero and increase as you move through the sequence.
+- `string[start:stop:step]` - Start,stop, and step are all ints. This feature is called slicing, and it gives a **substring** of a string, or a string that is inside of the bigger string. This substring starts at index start (inclusive) to index stop (exclusive) with every step character, or by step. For example, `string[2:7:2]` gives the substring from index 2 to index 6 skipping every other character. Start, stop, and step can also be negative. The rightmost index is -1 and decreases as you go left. Negative steps just reverse the substring.
+- `string.find(character)` - Gives the index of first instance of specified character in string, otherwise returns -1.
+- `string.upper()`, `string.lower()`, `string.capitalize()` - Returns a string that is all uppercase, all lowercase, or has first character uppercase and rest lowercase. Only changes letters and not numbers or spaces.
+- `ord(character)`, `chr(int)` - Returns the **ASCII** value of a character, returns the **ASCII** character at a value. The **ASCII** table allows computers to store characters and other values as numbers and save space.
+<img src="http://www.asciitable.com/index/asciifull.gif" alt="Ascii Table"/>
 
+### [Next Lesson](lesson2.md)
 ### [Back to Homepage](README.md)
