@@ -6,6 +6,7 @@ On this website, you can learn the basics of Python. I will be updating this web
 ### Workshop #1
 
 - [Introduction To Programming](intro.md)
+- [How to use Repl](how-to-use-repl.md)
 - [Basic Datatypes and Operations](lesson1.md)
 - [Control Structures and Common Functions](lesson2.md)
 - [Code examples in workshop](code-for-workshop1.md)
