@@ -14,9 +14,6 @@ On this website, you can learn the basics of Python. I will be updating this web
 ### Workshop #2
 - [Code examples in workshop](code-for-workshop2.md)
 
-### Workshop #3
-- [Problem Description](as_bridge_1_jr.pdf)
-- [Problem Solution](code-for-workshop3.md)
 I will add the rest of the lesson in a few days.
 
 ## Other Resources
