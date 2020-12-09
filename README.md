@@ -12,6 +12,7 @@ On this website, you can learn the basics of Python. I will be updating this web
 - [Code examples in workshop](code-for-workshop1.md)
 
 ### Workshop #2
+- [Lists and Dictionaries](lesson3.md)
 - [Code examples in workshop](code-for-workshop2.md)
 
 I will add the rest of the lesson in a few days.
