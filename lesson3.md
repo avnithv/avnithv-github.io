@@ -45,3 +45,38 @@ Here are some of the most common operations with lists:
 In a list of all ints or floats:
 - Find sum of all items in list - `sum(list)` - Returns the sum of all items in list
 - Find maximum/minimum of the items in the list - `max(list)`/`min(list)` - Returns the maximum/minimum item in list.
+
+# Dictionaries
+
+## What are dictionaries?
+Dictionaries are an unordered and mutable set of key-value pairs such that each key is unique and corresponds to a value. A set is a group that is unordered unless stated otherwise in certain cases. Each item in the dictionary is in the form of a pair of values, one being the key and the other being the value. Each key is used to access its value. Because of this, each key must be unique to the other keys, but values do not need to be unique. The keys and values can be any data with one exception: the key may not be a list or a dictionary. This is because lists and dictionaries are mutable. Since they are unordered, dictionaries do not have indexes and cannot be sliced. Dictionaries are defined with items being in the form `key : value`, each item separated by a comma, and curly brackets surrounding the qhole thing.
+
+## Creating and Changing Dictionaries
+There are two ways of creating a dictionary:
+- Directly through `{}`, `,`, and `key : value`: Assigns the dictionary to a variable with the key-value pairs specified already inside.
+- Using `dict(key = value)` constructor: The must be a string and is written without quotes. Returns a dictionary with each key-value pair specified.
+
+The first way is used more often in practice because it is simpler.
+
+There are again two main ways of adding key-value pairs to a dictionary
+- Directly adding it through `dict[key] = value`: Directly adds the key-value pair, best if you are adding only a few pairs.
+- Using `dict.update(new_dict)` method: Adds to or overwrites the key-value pairs currently in the dictionary with the key-value pairs in another dictionary.
+
+The first method is used more but the second is used as well in certain cases.
+
+There are two ways of removing key-value pairs which are the same as in lists:
+- `del dict[key]` with **del** keyword: Removes a key-value pair with the specified key
+- `dict.pop(key)` method: Remove key-value pair with specified key as well as returning its value.
+
+Both ways are commonly used in practice.
+
+## Operations with dictionaries
+Here are some common operations with dictionaries:
+- Access value at key - `dict[key]` - Gives the value which the key corresponds to
+- Find all keys/values/pairs - `dict.keys()`/`dict.values()`/`dict.items()` - Returns a list of the dictionary's keys/values/pairs in the form `[key, pair]`
+- Pop last inserted pair - `dict.popitem(key)` - Returns pair last inserted in the form `[key, value]`
+- Return value if key exists otherwise set key to value - `dict.setdefault(key, value)` - Returns value key corresponds to; if it doesnt exist, adds new pair `key : value`
+
+The last two operations are not used commonly. Dictionaries as a whole are less used than lists, which are a simpler and more applicable version of a dictionary.
+
+### [Back to Homepage](README.md)
