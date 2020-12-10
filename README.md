@@ -19,6 +19,9 @@ On this website, you can learn the basics of Python. I will be updating this web
 ### Workshop #3
 - [Workshop Slides](Python%20Programming%20Workshop%20Session%203.pdf)
 
+### Workshop #4
+- [Code example in workshop](code-for-workshop-4.md)
+
 I will add the rest of the lessons in a few days.
 
 ## Other Resources
