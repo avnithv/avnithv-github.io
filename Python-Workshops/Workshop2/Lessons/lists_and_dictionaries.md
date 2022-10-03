@@ -79,5 +79,5 @@ Here are some common operations with dictionaries:
 
 The last two operations are not used commonly. Dictionaries as a whole are less used than lists, which are a simpler and more applicable version of a dictionary.
 
-### [Next Lesson](functions.md)
-### [Back to Homepage](README.md)
+### [Next Lesson](/functions.md)
+### [Back to Homepage](../../home.md)

@@ -80,5 +80,5 @@ The following is a list of functions, methods, and other useful features that yo
 - `ord(character)`, `chr(int)` - Returns the **ASCII** value of a character, returns the **ASCII** character at a value. The **ASCII** table allows computers to store characters and other values as numbers and save space.
 <img src="/img/asciitable.gif"/>
 
-### [Next Lesson](control_structures.md)
-### [Back to Homepage](../../README.md)
+### [Next Lesson](../Lessons/control_structures.md)
+### [Back to Homepage](../../home.md)

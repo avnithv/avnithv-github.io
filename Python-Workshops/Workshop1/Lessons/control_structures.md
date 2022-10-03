@@ -19,4 +19,4 @@ For loops also repeatedly execute a piece of code, similar to While loops. Howev
 
 To define a For loop, you need to use two key words like this: `for item in sequence:`. In this case, both **for** and **in** are keywords. The word `item` is the variable that changes with each execution and `sequence` is the sequence which is iterated through. This sequence is most commonly the `range()` function. The `range()` function is similar to the slicing feature in strings, which gives a sequence starting at the first value (inclusive) and ending at the second value (exclusive) by step. In this case, the sequence is a sequence of ints and not a sequence of characters.
 
-### [Back to Homepage](../../README.md)
+### [Back to Homepage](/../../home.md)

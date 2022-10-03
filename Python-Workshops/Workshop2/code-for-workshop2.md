@@ -121,4 +121,4 @@ for i in range(5):
     print(str(points) + ', ' + bid)
 ```
 
-### [Back to Homepage](../README.md)
+### [Back to Homepage](../home.md)

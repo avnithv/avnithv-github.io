@@ -12,7 +12,7 @@ There are two types of programming languages: **compiled** and **interpreted**. 
 **C++** is one of the most used programming language. It is also one of the fastest because it is compiled. However, it can be complicated and difficult to learn. It also has a lot of features that give it a lot of applications.
 
 **Python** is another popular programming language. It is one of the easiest to learn, read, and use. It is an interpreted language, which makes it faster to change and check your program, but is not very fast. There are different versions of Python, but the current one used is Python3. Below is the Python Logo.
-<img src="/img/pythonlogo.avif"/>
+<img src="../../img/pythonlogo.avif"/>
 
-### [Next Lesson](basic_datatypes_and_operations.md)
-### [Back to Homepage](../../README.md)
+### [Next Lesson](../Lessons/basic_datatypes_and_operations.md)
+### [Back to Homepage](../../home.md)

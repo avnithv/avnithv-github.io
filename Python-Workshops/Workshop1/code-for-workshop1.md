@@ -60,4 +60,4 @@ for second in range(1, seconds + 1):
     print('TIME UP')
 ```
 
-### [Back to Homepage](../README.md)
+### [Back to Homepage](../home.md)
